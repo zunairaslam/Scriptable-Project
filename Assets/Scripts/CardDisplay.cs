@@ -14,7 +14,7 @@ public class CardDisplay : MonoBehaviour
 
     public TMP_Text manaText;
     public TMP_Text healthText;
-    // Start is called before the first frame update
+
     void Start()
     {
         nameText.text = card.name;
@@ -24,7 +24,4 @@ public class CardDisplay : MonoBehaviour
         healthText.text = card.health.ToString();
 
     }
-
-    // Update is called once per frame
-
 }
